@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class StudententryComponent {
 
+  name=""
+  rno=""
+  adno=""
+  mobno=""
+  clg=""
+  pname=""
+  pnum=""
+  uname=""
+  pswd=""
+
+  read=()=>{
+
+    let data:any={"name":this.name,"rno":this.rno,"adno":this.adno,"mobno":this.mobno,"clg":this.clg,"pname":this.pname,"pnum":this.pnum,"uname":this.uname,"pswd":this.pswd}
+    console.log(data)
+  }
+
 }
